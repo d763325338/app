@@ -1,0 +1,152 @@
+@charset "utf-8";
+.nav {
+    height: 50px;
+    overflow: hidden;
+    border-bottom: 1px solid #f16b00;
+    background: #e46500;
+}
+
+.hot_mid {
+    width: 1240px;
+    height: 282px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.mid {
+    width: 1240px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.mid_content1 {
+    width: 1240px;
+    margin-top: 20px;
+    height: 554px;
+}
+
+.mid_content1 p:nth-child(1) {
+    border-left: 5px solid #2b87dd;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.mid_content1_left {
+    width: 223px;
+    overflow: hidden;
+    float: left;
+}
+
+.mid_content1_left img {
+    vertical-align: bottom;
+}
+
+.mid_content1_left .zhonglei li {
+    float: left;
+    width: 111px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.mid_content1_left .zhonglei {
+    height: 85px;
+    padding: 20px 0;
+    float: left;
+    background: #e5e5e5;
+}
+
+.mid_content1_left .zhonglei li a:hover {
+    color: cornflowerblue;
+}
+
+.mid_content1_mid {
+    width: 790px;
+    overflow: hidden;
+    float: left;
+    margin-top: 36px;
+}
+
+.mid_content1_mid li {
+    float: left;
+    width: 195px;
+    height: 249px;
+    border: 1px solid #e5e5e5;
+}
+
+.mid_content1_mid img {
+    width: 185px;
+    height: 196px;
+}
+
+.mid_content1_mid a p:nth-child(2) {
+    margin: 0 22px;
+}
+
+.mid_content1_mid a p:nth-child(3) {
+    margin: 0 22px;
+    font-size: 18px;
+    color: #ff4400;
+}
+
+.mid_content1_right {
+    width: 223px;
+    height: 500px;
+    border: 1px solid #e5e5e5;
+    float: left;
+    margin-top: 36px;
+}
+
+.lift {
+    position: fixed;
+    left: 50%;
+    bottom: 10%;
+    margin-left: 625px;
+    width: 35px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    z-index: 999999
+}
+
+.lift a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.lift a b {
+    display: block;
+    line-height: 35px;
+    float: 14px;
+    color: #787878
+}
+
+.lift a span {
+    display: none;
+}
+
+.lift a:hover span {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #ff4a00;
+    color: #fff;
+}
+
+.lift a:hover b {
+    display: none;
+}
+
+.lift a .gotop {
+    width: 35px;
+    height: 35px;
+    background: #e7e7e7 url(images/icon-gotop.png) no-repeat;
+}
+
+.lift a:hover .gotop {
+    background: #ffe8df url(images/icon-gotop.png) no-repeat;
+}
